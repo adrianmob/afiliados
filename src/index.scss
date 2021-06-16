@@ -1,0 +1,139 @@
+body {
+  background-color: #f1f5f8 !important;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen";
+}
+
+.login__container,
+.registro__container {
+  display: flex;
+  height: 100vh;
+  @media (max-width: 768px) {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    min-height: unset;
+  }
+}
+
+.container_back {
+  position: absolute;
+  left: 85px;
+  top: 74px;
+}
+
+.login__form,
+.registro__form {
+  width: 55%;
+  align-self: center;
+  @media (max-width: 768px) {
+    width: unset;
+  }
+}
+
+form {
+  margin: 0 30px 30px 100px;
+  max-width: 560px;
+  @media (max-width: 768px) {
+    margin: 0 30px;
+  }
+}
+
+h1.login {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #284056;
+  margin-bottom: 60px;
+  width: 55%;
+  align-self: center;
+  @media (max-width: 768px) {
+    width: unset;
+  }
+  @media (max-width: 465px) {
+    width: 100%;
+  }
+}
+
+form {
+  margin: 0 30px 30px 100px;
+  max-width: 560px;
+
+  @media (max-width: 768px) {
+    margin: 0 25px;
+  }
+}
+
+h1.login {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  color: #284056;
+  margin-bottom: 60px;
+  @media (max-width: 768px) {
+    font-size: 35px;
+    margin: 55px 0 31px 0;
+  }
+  @media (max-width: 465px) {
+    font-size: 25px;
+  }
+}
+
+.login__input,
+.registro__input {
+  max-width: 400px;
+  margin-bottom: 20px !important;
+  width: 100%;
+}
+
+.Button {
+  width: 400px !important;
+  height: 55px;
+  left: 100px;
+  top: 557px;
+  background: #fc7702;
+  border-radius: 3px;
+}
+
+.login__containerInput,
+.registro__containerInput {
+  display: flex;
+  flex-direction: column;
+  > span {
+    color: #d9534f;
+    font-size: 15px;
+    padding: 10px 0;
+  }
+}
+
+checkbox {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  align-items: center;
+}
+
+.capaLogo {
+  background-color: #fef1d3;
+  width: 55%;
+  height: 100%;
+  @media (max-width: 768px) {
+    width: 100%;
+    height: 219px;
+  }
+}
+
+.forgotPass {
+  color: #284056;
+  font-size: 14px;
+  line-height: 20px;
+}
